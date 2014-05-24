@@ -1,0 +1,25 @@
+{
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "KUBO Atsuhiro",
+            "email": "kubo@iteman.jp"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7.0",
+        "piece/stagehand-testrunner": ">=4.0.0"
+    },
+    "autoload": {
+        "psr-4": { "Iteman\\CodeIQ\\Q875\\": "src/" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
